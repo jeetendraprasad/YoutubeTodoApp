@@ -9,6 +9,7 @@ import { TodoitemsComponent } from './components/todo/todoitems/todoitems.compon
 import { TodolistComponent } from './components/todo/todolist/todolist.component';
 import { LoginComponent } from './components/user/login/login.component';
 import { SignupComponent } from './components/user/signup/signup.component';
+import { NotfoundComponent } from './components/others/notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SignupComponent } from './components/user/signup/signup.component';
     TodoitemsComponent,
     TodolistComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
