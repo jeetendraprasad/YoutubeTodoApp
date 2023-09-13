@@ -30,3 +30,16 @@ CanActivate
 
 ng g s services/user
 ng g s services/todo
+
+
+ng g c components/others/networkerror
+ng g c components/others/notfound
+
+ng g c components/todo/todoform
+ng g c components/todo/todoitems
+ng g c components/todo/todolist
+
+ng g c components/user/login
+ng g c components/user/signup
+
+ng s -o
