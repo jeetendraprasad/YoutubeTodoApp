@@ -3,7 +3,7 @@ STEPS:-
 
 
 1>
-cd /d Q:\HOMEPATH\WIP\ONLINE_STUDY\YoutubeTodoApp
+cd /d C:\tmp\YoutubeTodoApp
 
 2>
 npm i @angular/cli
@@ -21,6 +21,12 @@ code .
 In Vscode install extension 'Angular Language Service' (refer: https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 
 ng g guard auth/auth
-
 Which type of guard would you like to create? (Press <space> to select, <a> to toggle all, <i> to invert selection, and <enter> to proceed)
 CanActivate
+
+ng g guard auth/login
+Which type of guard would you like to create? (Press <space> to select, <a> to toggle all, <i> to invert selection, and <enter> to proceed)
+CanActivate
+
+ng g s services/user
+ng g s services/todo
