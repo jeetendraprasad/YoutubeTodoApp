@@ -8,7 +8,7 @@ import { SignupComponent } from './components/user/signup/signup.component';
 
 const routes: Routes = [
   {path: '', redirectTo:'/login', pathMatch:'full'},
-  {path: '**', component:NotfoundComponent},
+  {path: '**', component:LoginComponent},
   {path:'todo', component:TodolistComponent},
   {path:'login', component:LoginComponent},
   {path:'signup', component:SignupComponent},
